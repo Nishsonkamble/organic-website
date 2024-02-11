@@ -1,0 +1,118 @@
+@media (max-width: 1199px){
+	html{
+		font-size: 55%;
+	}
+	
+    .btn{
+		font-size: .995rem;
+	}
+	
+}
+
+@media (max-width: 991px){
+	html{
+		font-size: 50%;
+	}
+	section{
+	  padding:  0;
+	}
+	.btn{
+		padding: 15px;
+	} 
+    .card{
+	 height: 35vw;
+	 padding: o;
+     margin: .4em .4em;
+	 flex:0 0 calc(100%/3);
+    }
+   .card body{
+	  height:30;
+      width:100%;	  
+    }
+ 
+ .card img{
+	 padding:0;
+	 max-height: 30%;
+	 max-width: 100%;
+    }
+}
+@media (max-width: 776px){
+	html{
+		font-size: 50%;
+	}
+	.nav{
+		width: 50%;
+		height: 80px;
+		font-size: 20px;
+		padding: 2px 2px;
+	}
+	.nav-item{
+		font-size: 15px;
+		padding:0;
+	}
+    .card{
+        height: 60vw;
+        padding-bottom: o;
+        margin: .1px .1px;
+        flex:0 0 calc(100%/3);
+    }
+    
+    
+    .card img{
+       
+        max-height: 30%;
+        max-width: 100%;
+    }
+   
+   .card body{
+        font-size: 15px;
+         height:30%;
+         width:100%;	  
+     }
+     .card-title{
+        font-size: 12px;
+     }
+
+     .card-text{
+        font-size: 10px;
+     }
+     .book{
+        align-items: center;
+        margin-top: 135px;
+        margin-left: 2px;
+
+     }
+     .btn{
+		font-size: .995rem;
+	}
+
+}
+@media (max-width: 600px){
+
+   .book{
+     text-align: center;
+   }
+   .info card{
+     height: 35px;
+   }
+   .footer{
+    height: 30%;
+   }
+   .footer h4{
+    margin-top: 10px;
+    font-size: 70%;
+    margin-left: 32px;
+  }
+   .footer ul li{
+    font-size: 55%;
+    margin-left: 18px;
+  }
+  #bt-1{
+    padding:8px 1px;
+    margin-top: -58px;
+    margin-left: 160px;
+  }
+  #em{
+    margin-left: -19px;
+  }
+}

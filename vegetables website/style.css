@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+   }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+  width: 100%;
+}
+
+nav{
+  display:flex;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: white;
+  height: 45px;
+  width: 100%;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 35px;
+    background-color: white;
+    color: #000;
+}
+
+nav ul li{
+  font-size: 30px;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase!important;
+}
+
+.navbar-toggler :focus{
+		box-shadow: none;
+}
+.collapse{
+		display: block;
+}
+nav .nav-item a:hover{
+	color: #00ffff !important;
+	transition: .5s !important;
+}
+.navbar-collapse{
+	   transition: all .5s;
+}
+.Home{
+  background-image: url(flower1.jpg);
+
+		background: no-repeat center center cover;
+		padding: .2805rem .877rem;
+    margin-left: 2px;
+	  height: 90%;
+		width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Home h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding-top: 35px;
+}
+.Home button{
+   color: #eee;
+
+}
+.about{
+  margin-top: -9px;
+  height: 80%;
+  width: 100%;
+}
+.card{
+  margin-top: -9px;
+  height: 310px;
+  width: 100%;
+}
+.card img {
+  height: 50%;
+  background: no-repeat cover;
+}
+.card-body{
+  height: 50%;
+}
+.card-body h5{
+  margin: 0;
+
+}
+.card-body p{
+  margin: 0;
+  font-weight: 100;
+
+}
+.book{
+  background-image: url(flower2.jpg);
+  background: no-repeat cover;
+  margin-top: 225px;
+  margin-left: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 50%;
+  width: 100%;
+}
+.info{
+  margin-top: 4px;
+  height: 65%;
+  width: 100%;
+}
+.info .card{
+  margin-top: -5px;
+  height: 160px;
+  width: 100%;
+}
+.info .card-body {
+ height: 50%;
+}
+.info .card img{
+  align-items: center;
+  justify-content: center;
+  background: no-repeat center center cover;
+  height: 50%;
+  width: 90%;
+}
+.footer{
+  margin-top: 10px;
+  margin-left: 1px;
+  background-image: url(img-2.jpg);
+  background: no-repeat center cover;
+  height: 40%;
+  width: 98%;
+  color: white;
+}
+.footer h4{
+  margin-left: 62px;;
+}
+.footer ul li{
+  list-style-type: none;
+  margin-left: 38px;;
+}
+#bt-1{
+  margin-left: -4px;
+  color: white;
+  padding:4px 2px;
+}
